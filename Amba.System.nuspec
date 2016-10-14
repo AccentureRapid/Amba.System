@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Amba.System</id>
+        <version>1.5.0.0</version>
+        <title>Amba Utilities</title>
+        <authors>Alexey V.Ryazhskikh</authors>
+        <owners>Alexey V.Ryazhskikh</owners>
+        <projectUrl>https://github.com/musukvl/Amba.System</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Helpers and System types extensions</description>
+        <summary>Helpers and System types extensions</summary>
+        <copyright>Alexey V.Ryazhskikh</copyright>
+        <language />
+        <dependencies>
+            <dependency id="Newtonsoft.Json" version="9.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Amba.System\bin\Release\Amba.System.dll" target="lib\net45\Amba.System.dll" />
+        <file src="Amba.System\bin\Release\Amba.System.pdb" target="lib\net45\Amba.System.pdb" />
+    </files>
+</package>
